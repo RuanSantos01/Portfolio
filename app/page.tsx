@@ -35,7 +35,7 @@ export default function Home() {
     <div className="w-full">
       <section
         id="home"
-        className="section-container animate-bg_black_animated py-16 md:py-0"
+        className="section-container dark-animated-bg py-16 md:py-0"
       >
         <div className="section-content">
           <div className="w-full max-w-[1320px] mx-auto px-4">
@@ -47,7 +47,7 @@ export default function Home() {
                 className="flex flex-col space-y-8"
               >
                 <div className="space-y-4">
-                  <h1 className="text-2xl md:text-3xl text-white">
+                  <h1 className="text-2xl md:text-3xl text-white md:pt-0 pt-4">
                     <MotionText>Hi I'm Ruan</MotionText>
                   </h1>
                   <h1 className="text-4xl md:text-6xl font-bold text-primary_green">
@@ -92,7 +92,7 @@ export default function Home() {
                     <Button
                       variant="outline"
                       size="icon"
-                      className="rounded-full text-primary_green border border-primary_green hover:border-white w-12 h-12 hover:scale-110 transition-all duration-300 hover:shadow-lg hover:bg-primary_green hover:text-white"
+                      className="rounded-full text-primary_green border w-12 h-12 border-primary_green hover:border-white hover:scale-110 transition-all duration-300 hover:shadow-lg hover:bg-primary_green hover:text-white"
                       onClick={() => window.open(socialLinks.github, "_blank")}
                     >
                       <Github className="h-5 w-5" />
@@ -100,7 +100,7 @@ export default function Home() {
                     <Button
                       variant="outline"
                       size="icon"
-                      className="rounded-full w-12 h-12 text-primary_green border border-primary_green hover:border-white hover:scale-110 transition-all duration-300 hover:shadow-lg hover:bg-primary_green hover:text-white"
+                      className="rounded-full w-12 h-12 text-primary_green border-primary_green hover:border-white hover:scale-110 transition-all duration-300 hover:shadow-lg hover:bg-primary_green hover:text-white"
                       onClick={() =>
                         window.open(socialLinks.linkedin, "_blank")
                       }
@@ -110,7 +110,7 @@ export default function Home() {
                     <Button
                       variant="outline"
                       size="icon"
-                      className="rounded-full w-12 h-12 hover:scale-110 text-primary_green border border-primary_green hover:border-white transition-all duration-300 hover:shadow-lg hover:bg-primary_green hover:text-white"
+                      className="rounded-full w-12 h-12 text-primary_green border-primary_green hover:border-white hover:scale-110 transition-all duration-300 hover:shadow-lg hover:bg-primary_green hover:text-white"
                       onClick={() =>
                         window.open(socialLinks.instagram, "_blank")
                       }
@@ -149,24 +149,15 @@ export default function Home() {
         </div>
       </section>
 
-      <section
-        id="about"
-        className="section-container animate-bg_light_animated"
-      >
+      <section id="about" className="section-container light-animated-bg">
         <About />
       </section>
 
-      <section
-        id="experience"
-        className="section-container animate-bg_black_animated"
-      >
+      <section id="experience" className="section-container dark-animated-bg">
         <CareerTimeline />
       </section>
 
-      <section
-        id="skills"
-        className="section-container animate-bg_light_animated"
-      >
+      <section id="skills" className="section-container light-animated-bg">
         <Skills />
       </section>
     </div>
