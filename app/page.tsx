@@ -92,7 +92,7 @@ export default function Home() {
                     <Button
                       variant="outline"
                       size="icon"
-                      className="rounded-full w-12 h-12 hover:scale-110 transition-all duration-300 hover:shadow-lg hover:bg-primary_green hover:text-white"
+                      className="rounded-full text-primary_green border border-primary_green hover:border-white w-12 h-12 hover:scale-110 transition-all duration-300 hover:shadow-lg hover:bg-primary_green hover:text-white"
                       onClick={() => window.open(socialLinks.github, "_blank")}
                     >
                       <Github className="h-5 w-5" />
@@ -100,7 +100,7 @@ export default function Home() {
                     <Button
                       variant="outline"
                       size="icon"
-                      className="rounded-full w-12 h-12 hover:scale-110 transition-all duration-300 hover:shadow-lg hover:bg-primary_green hover:text-white"
+                      className="rounded-full w-12 h-12 text-primary_green border border-primary_green hover:border-white hover:scale-110 transition-all duration-300 hover:shadow-lg hover:bg-primary_green hover:text-white"
                       onClick={() =>
                         window.open(socialLinks.linkedin, "_blank")
                       }
@@ -110,7 +110,7 @@ export default function Home() {
                     <Button
                       variant="outline"
                       size="icon"
-                      className="rounded-full w-12 h-12 hover:scale-110 transition-all duration-300 hover:shadow-lg hover:bg-primary_green hover:text-white"
+                      className="rounded-full w-12 h-12 hover:scale-110 text-primary_green border border-primary_green hover:border-white transition-all duration-300 hover:shadow-lg hover:bg-primary_green hover:text-white"
                       onClick={() =>
                         window.open(socialLinks.instagram, "_blank")
                       }
