@@ -3,7 +3,6 @@
 import { useState, useCallback, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, Code2 } from "lucide-react";
-import { useTheme } from "next-themes";
 import { Button } from "@/components/ui/button";
 
 const menuItems = [
@@ -17,7 +16,6 @@ export function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("home");
   const [scrollProgress, setScrollProgress] = useState(0);
-  const { theme, setTheme } = useTheme();
 
   const scrollToSection = useCallback(
     (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {

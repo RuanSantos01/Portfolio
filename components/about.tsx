@@ -36,7 +36,7 @@ export default function About() {
           {/* Image Section */}
           <div className="relative h-[28rem] w-[24rem] md:w-full md:h-[20rem] sm:h-[25rem] lg:h-[40rem] mx-auto">
             <Image
-              src="/assets/aboutmeImage.jpg"
+              src="/assets/eu.jpeg"
               alt="Profile picture"
               fill
               className="object-cover rounded-xl shadow-[0_0_30px_rgba(0,0,0,0.2)] dark:shadow-[0_0_30px_rgba(255,255,255,0.1)]"
