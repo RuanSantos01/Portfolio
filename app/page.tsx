@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import About from "@/components/about";
 import CareerTimeline from "@/components/career-timeline";
 import Skills from "@/components/skills";
+import {BackgroundSlideshow} from "@/components/backgroundSlideShow";
 
 const socialLinks = {
   linkedin: "https://www.linkedin.com/in/ruan-christian/",
@@ -35,8 +36,9 @@ export default function Home() {
     <div className="w-full">
       <section
         id="home"
-        className="section-container dark-animated-bg py-16 md:py-0"
+        className="section-container py-16 md:py-0"
       >
+        <BackgroundSlideshow />
         <div className="section-content">
           <div className="w-full max-w-[1320px] mx-auto px-4">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
@@ -149,15 +151,15 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="about" className="section-container light-animated-bg">
+      <section id="about" className="section-container">
         <About />
       </section>
 
-      <section id="experience" className="section-container dark-animated-bg">
+      <section id="experience" className="section-container">
         <CareerTimeline />
       </section>
 
-      <section id="skills" className="section-container light-animated-bg">
+      <section id="skills" className="section-container">
         <Skills />
       </section>
     </div>

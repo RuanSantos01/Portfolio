@@ -145,7 +145,7 @@ const iconVariants = {
 
 export default function Skills() {
   return (
-    <div className="py-12 px-4">
+    <div className="py-12 px-4 bg-zinc-50">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -171,7 +171,7 @@ export default function Skills() {
           {skillCategories.map((category) => (
             <motion.div key={category.title} variants={itemVariants}>
               <Card className="overflow-hidden">
-                <div className="p-6 bg-gradient-to-r from-primary_green via-primary_green/60 to-primary_green text-white">
+                <div className="p-6 bg-gradient-to-r from-primary_green via-primary_green/70 to-primary_green text-white">
                   <div className="flex items-center gap-3">
                     <span className="text-2xl">{category.icon}</span>
                     <h2 className="text-xl font-semibold">{category.title}</h2>

@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { GraduationCap, Building2, Calendar, Briefcase } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import {BackgroundSlideshow} from "@/components/backgroundSlideShow";
 
 const experiences = [
   {
@@ -63,6 +64,7 @@ const itemVariants = {
 export default function CareerTimeline() {
   return (
     <section className="min-h-[calc(100vh-4rem)] pb-10">
+      <BackgroundSlideshow />
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}

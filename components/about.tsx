@@ -15,7 +15,7 @@ const personalDetails = [
 
 export default function About() {
   return (
-    <section className="min-h-[calc(100vh-4rem)] flex items-center">
+    <section className="min-h-[calc(100vh-4rem)] flex items-center bg-zinc-50">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
