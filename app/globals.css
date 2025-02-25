@@ -54,37 +54,3 @@ body {
   animation: float 6s ease-in-out infinite;
 }
 
-.section-container {
-  @apply relative min-h-screen w-full;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 0 10px;
-}
-
-.section-content {
-  @apply relative z-10 flex min-h-screen items-center justify-center;
-  backdrop-filter: blur(10px);
-}
-
-/* Dark section with animated gradient */
-.dark-animated-bg {
-  @apply relative animate-bg_black_animated overflow-hidden;
-}
-
-.dark-animated-bg::before {
-  content: "";
-  @apply absolute inset-0 animate-bg_black_animated;
-  animation: gradientPulse 8s ease-in-out infinite;
-}
-
-/* Light section with animated gradient */
-.light-animated-bg {
-  @apply relative animate-bg_light_animated overflow-hidden;
-}
-
-.light-animated-bg::before {
-  content: "";
-  @apply absolute inset-0 animate-bg_light_animated;
-  animation: gradientPulse 8s ease-in-out infinite;
-}

@@ -36,10 +36,10 @@ export default function Home() {
     <div className="w-full">
       <section
         id="home"
-        className="section-container py-16 md:py-0"
+        className=" py-20 lg:py-10 xl:py-0 min-h-screen flex justify-center items-center"
       >
         <BackgroundSlideshow />
-        <div className="section-content">
+        <div>
           <div className="w-full max-w-[1320px] mx-auto px-4">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
               <motion.div
@@ -151,15 +151,15 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="about" className="section-container">
+      <section id="about">
         <About />
       </section>
 
-      <section id="experience" className="section-container">
+      <section id="experience">
         <CareerTimeline />
       </section>
 
-      <section id="skills" className="section-container">
+      <section id="skills">
         <Skills />
       </section>
     </div>
