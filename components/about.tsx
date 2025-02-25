@@ -25,7 +25,7 @@ export default function About() {
         <div className="flex flex-col items-center mb-9 pt-10 md:pt-0">
           <div className="inline-flex items-center gap-3 p-2 px-4 bg-primary/10 rounded-full mb-4">
             <User className="h-6 w-6 text-primary" />
-            <h1 className=" text-3xl sm:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary  via-primary/50 to-primary">
+            <h1 className=" text-3xl sm:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary via-primary/50 to-primary">
               About Me
             </h1>
           </div>
@@ -45,7 +45,7 @@ export default function About() {
           </div>
 
           {/* Text Section */}
-          <div className="flex flex-col justify-between w-[24rem] mx-auto md:w-full">
+          <div className="flex flex-col justify-between w-[24rem] mx-auto md:w-full px-3 md:px-0">
             <div>
               <h2 className="text-2xl font-semibold sm:text-3xl lg:text-4xl mb-4">
                 Hi There! I'm Ruan Christian
