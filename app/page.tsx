@@ -46,13 +46,13 @@ export default function Home() {
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.8 }}
-                className="flex flex-col space-y-8"
+                className="flex flex-col space-y-4 md:space-y-8"
               >
-                <div className="space-y-4">
-                  <h1 className="text-2xl md:text-3xl text-white md:pt-0 pt-4">
+                <div className="space-y-0 md:space-y-4">
+                  <h1 className="text-xl md:text-3xl text-white">
                     <MotionText>Hi I'm Ruan</MotionText>
                   </h1>
-                  <h1 className="text-4xl md:text-6xl font-bold text-primary_green">
+                  <h1 className="text-2xl md:text-6xl font-bold text-primary_green">
                     <MotionText>Software Engineer</MotionText>
                   </h1>
                 </div>
@@ -61,7 +61,7 @@ export default function Home() {
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   transition={{ delay: 0.4 }}
-                  className="text-xl text-white leading-relaxed max-w-prose text-justify"
+                  className="text-base md:text-xl text-white leading-relaxed max-w-prose text-justify"
                 >
                   Software Enginner with over 4 years of experience in web
                   development, system migration, and process optimization. I

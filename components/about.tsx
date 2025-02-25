@@ -25,7 +25,7 @@ export default function About() {
         <div className="flex flex-col items-center mb-9 pt-10 md:pt-0">
           <div className="inline-flex items-center gap-3 p-2 px-4 bg-primary/10 rounded-full mb-4">
             <User className="h-6 w-6 text-primary" />
-            <h1 className=" text-3xl sm:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/50">
+            <h1 className=" text-3xl sm:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary  via-primary/50 to-primary">
               About Me
             </h1>
           </div>
