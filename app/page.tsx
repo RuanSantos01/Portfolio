@@ -81,7 +81,7 @@ export default function Home() {
                     onClick={() => {
                       const link = document.createElement("a");
                       link.href = "/assets/RuanChristian.pdf";
-                      link.download = "Ruan Christian.pdf";
+                      link.download = "RuanChristian.pdf";
                       document.body.appendChild(link);
                       link.click();
                       document.body.removeChild(link);

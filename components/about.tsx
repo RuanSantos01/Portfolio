@@ -22,7 +22,7 @@ export default function About() {
         transition={{ duration: 0.5 }}
         className="w-full max-w-[1320px] mx-auto"
       >
-        <div className="flex flex-col items-center mb-9 pt-10 md:pt-0">
+        <div className="flex flex-col items-center mb-9 pt-10 lg:pt-10 ">
           <div className="inline-flex items-center gap-3 p-2 px-4 bg-primary/10 rounded-full mb-4">
             <User className="h-6 w-6 text-primary" />
             <h1 className=" text-3xl sm:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary via-primary/50 to-primary">
@@ -45,7 +45,7 @@ export default function About() {
           </div>
 
           {/* Text Section */}
-          <div className="flex flex-col justify-between w-[24rem] mx-auto md:w-full px-3 md:px-0">
+          <div className="flex flex-col justify-between w-[24rem] mx-auto md:w-full px-3 md:px-8 lg:px-0 ">
             <div>
               <h2 className="text-2xl font-semibold sm:text-3xl lg:text-4xl mb-4">
                 Hi There! I'm Ruan Christian
@@ -87,7 +87,7 @@ export default function About() {
               onClick={() => {
                 const link = document.createElement("a");
                 link.href = "/assets/RuanChristian.pdf";
-                link.download = "Ruan Christian.pdf";
+                link.download = "RuanChristian.pdf";
                 document.body.appendChild(link);
                 link.click();
                 document.body.removeChild(link);
